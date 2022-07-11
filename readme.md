@@ -28,7 +28,7 @@ $SessionName = "auto" | A custom name (any file-compatible chars except the *per
 
 **Example:**
 
-    PS> Frostpunkd.ps1 -NumberToKeep 10 -SessionName 'Effincold' -Period 60 -Verbose`
+    PS> ./Frostpunkd.ps1 -NumberToKeep 10 -SessionName 'Effincold' -Period 60 -Verbose`
 
 Your autosaves will be backed up with the following naming convention: "`SessionName.EpochSeconds.save`". The greater the numerical value, the more recent the save. (You can also use the file's timestamp to gauge which one you want.)
 
